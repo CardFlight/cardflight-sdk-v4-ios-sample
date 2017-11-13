@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2399AB561FACEB8400442450 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2399AB551FACEB8400442450 /* Constants.swift */; };
+		23FA7E401FA8DACA004D6288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FA7E3F1FA8DACA004D6288 /* AppDelegate.swift */; };
+		23FA7E421FA8DACA004D6288 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FA7E411FA8DACA004D6288 /* MainViewController.swift */; };
+		23FA7E451FA8DACA004D6288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23FA7E431FA8DACA004D6288 /* Main.storyboard */; };
+		23FA7E471FA8DACA004D6288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23FA7E461FA8DACA004D6288 /* Assets.xcassets */; };
+		23FA7E4A1FA8DACA004D6288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23FA7E481FA8DACA004D6288 /* LaunchScreen.storyboard */; };
+		23FA7E6E1FAA1764004D6288 /* CardReaderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FA7E6D1FAA1764004D6288 /* CardReaderTableViewController.swift */; };
+		23FA7E701FAA181E004D6288 /* LoggerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FA7E6F1FAA181E004D6288 /* LoggerViewController.swift */; };
+		23FF97D11FB2678F00680560 /* ReaderSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FF97D01FB2678F00680560 /* ReaderSelectionCell.swift */; };
+		9448916B1FA8E79B0002BC6E /* CardFlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9448916A1FA8E79B0002BC6E /* CardFlight.framework */; };
+		9448916C1FA8E79B0002BC6E /* CardFlight.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9448916A1FA8E79B0002BC6E /* CardFlight.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		944891721FA8E9820002BC6E /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944891711FA8E9820002BC6E /* HelperFunctions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9448916D1FA8E79B0002BC6E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9448916C1FA8E79B0002BC6E /* CardFlight.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2399AB551FACEB8400442450 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		23FA7E3C1FA8DACA004D6288 /* cardflight-sdk-sample-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cardflight-sdk-sample-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FA7E3F1FA8DACA004D6288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23FA7E411FA8DACA004D6288 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		23FA7E441FA8DACA004D6288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23FA7E461FA8DACA004D6288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23FA7E491FA8DACA004D6288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23FA7E4B1FA8DACA004D6288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23FA7E6D1FAA1764004D6288 /* CardReaderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardReaderTableViewController.swift; sourceTree = "<group>"; };
+		23FA7E6F1FAA181E004D6288 /* LoggerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerViewController.swift; sourceTree = "<group>"; };
+		23FF97D01FB2678F00680560 /* ReaderSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderSelectionCell.swift; sourceTree = "<group>"; };
+		9448916A1FA8E79B0002BC6E /* CardFlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CardFlight.framework; sourceTree = "<group>"; };
+		9448916E1FA8E85F0002BC6E /* cardflight-sdk-sample-ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cardflight-sdk-sample-ios-Bridging-Header.h"; sourceTree = "<group>"; };
+		944891711FA8E9820002BC6E /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23FA7E391FA8DACA004D6288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9448916B1FA8E79B0002BC6E /* CardFlight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23FA7E331FA8DACA004D6288 = {
+			isa = PBXGroup;
+			children = (
+				9448916A1FA8E79B0002BC6E /* CardFlight.framework */,
+				23FA7E3E1FA8DACA004D6288 /* cardflight-sdk-sample-ios */,
+				23FA7E3D1FA8DACA004D6288 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23FA7E3D1FA8DACA004D6288 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23FA7E3C1FA8DACA004D6288 /* cardflight-sdk-sample-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23FA7E3E1FA8DACA004D6288 /* cardflight-sdk-sample-ios */ = {
+			isa = PBXGroup;
+			children = (
+				23FA7E3F1FA8DACA004D6288 /* AppDelegate.swift */,
+				23FA7E411FA8DACA004D6288 /* MainViewController.swift */,
+				23FA7E6D1FAA1764004D6288 /* CardReaderTableViewController.swift */,
+				23FA7E6F1FAA181E004D6288 /* LoggerViewController.swift */,
+				23FF97D01FB2678F00680560 /* ReaderSelectionCell.swift */,
+				23FA7E431FA8DACA004D6288 /* Main.storyboard */,
+				23FA7E461FA8DACA004D6288 /* Assets.xcassets */,
+				23FA7E481FA8DACA004D6288 /* LaunchScreen.storyboard */,
+				23FA7E4B1FA8DACA004D6288 /* Info.plist */,
+				9448916E1FA8E85F0002BC6E /* cardflight-sdk-sample-ios-Bridging-Header.h */,
+				2399AB551FACEB8400442450 /* Constants.swift */,
+				944891711FA8E9820002BC6E /* HelperFunctions.swift */,
+			);
+			path = "cardflight-sdk-sample-ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23FA7E3B1FA8DACA004D6288 /* cardflight-sdk-sample-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23FA7E641FA8DACB004D6288 /* Build configuration list for PBXNativeTarget "cardflight-sdk-sample-ios" */;
+			buildPhases = (
+				23FA7E381FA8DACA004D6288 /* Sources */,
+				23FA7E391FA8DACA004D6288 /* Frameworks */,
+				23FA7E3A1FA8DACA004D6288 /* Resources */,
+				9448916D1FA8E79B0002BC6E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cardflight-sdk-sample-ios";
+			productName = "cardflight-sdk-sample-ios";
+			productReference = 23FA7E3C1FA8DACA004D6288 /* cardflight-sdk-sample-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23FA7E341FA8DACA004D6288 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = CardFlight;
+				TargetAttributes = {
+					23FA7E3B1FA8DACA004D6288 = {
+						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 23FA7E371FA8DACA004D6288 /* Build configuration list for PBXProject "cardflight-sdk-sample-ios" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23FA7E331FA8DACA004D6288;
+			productRefGroup = 23FA7E3D1FA8DACA004D6288 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23FA7E3B1FA8DACA004D6288 /* cardflight-sdk-sample-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23FA7E3A1FA8DACA004D6288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FA7E4A1FA8DACA004D6288 /* LaunchScreen.storyboard in Resources */,
+				23FA7E471FA8DACA004D6288 /* Assets.xcassets in Resources */,
+				23FA7E451FA8DACA004D6288 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23FA7E381FA8DACA004D6288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FA7E421FA8DACA004D6288 /* MainViewController.swift in Sources */,
+				23FF97D11FB2678F00680560 /* ReaderSelectionCell.swift in Sources */,
+				23FA7E401FA8DACA004D6288 /* AppDelegate.swift in Sources */,
+				23FA7E701FAA181E004D6288 /* LoggerViewController.swift in Sources */,
+				23FA7E6E1FAA1764004D6288 /* CardReaderTableViewController.swift in Sources */,
+				944891721FA8E9820002BC6E /* HelperFunctions.swift in Sources */,
+				2399AB561FACEB8400442450 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23FA7E431FA8DACA004D6288 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23FA7E441FA8DACA004D6288 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23FA7E481FA8DACA004D6288 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23FA7E491FA8DACA004D6288 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23FA7E621FA8DACB004D6288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23FA7E631FA8DACB004D6288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23FA7E651FA8DACB004D6288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5YKNP8J62;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "cardflight-sdk-sample-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cardflight.cardflight-sdk-sample-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cardflight-sdk-sample-ios/cardflight-sdk-sample-ios-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23FA7E661FA8DACB004D6288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5YKNP8J62;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "cardflight-sdk-sample-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cardflight.cardflight-sdk-sample-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cardflight-sdk-sample-ios/cardflight-sdk-sample-ios-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23FA7E371FA8DACA004D6288 /* Build configuration list for PBXProject "cardflight-sdk-sample-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FA7E621FA8DACB004D6288 /* Debug */,
+				23FA7E631FA8DACB004D6288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23FA7E641FA8DACB004D6288 /* Build configuration list for PBXNativeTarget "cardflight-sdk-sample-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FA7E651FA8DACB004D6288 /* Debug */,
+				23FA7E661FA8DACB004D6288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23FA7E341FA8DACA004D6288 /* Project object */;
+}
